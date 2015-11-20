@@ -8,6 +8,9 @@
 <body>
 
 <div class="container">
+
+  <!-- Main header takes up 8 columns on larger screens, and shrinks down to 4 on extra small screens to accomodate the other div on the row -->
+
   <div class="row">
     <div class="col-xs-4 col-sm-6 col-md-8 col-lg-8">
       <h1 class="text-center">Test Page</h1>
@@ -17,20 +20,24 @@
     </div>
   </div>
 
+  <!-- Following 3 divs take up 33% of width on small to large screens and first div takes up 12 columns and the other two 50% width below it on extra small screens -->
+
   <div class="row">
-    <div class="col-xs-12 col-md-4 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
       <h3 class="text-center">TEST</h3>
       <p>Bacon ipsum dolor amet meatball drumstick landjaeger cupim venison short ribs bresaola sausage kielbasa alcatra. Strip steak ham kevin frankfurter ball tip biltong andouille filet mignon capicola bacon pancetta. Venison beef ribs ham pig pork sausage bresaola shankle. Turducken rump venison, hamburger meatloaf prosciutto spare ribs. Pork chop bacon shank porchetta. Andouille sausage pork chop venison tri-tip pork belly swine filet mignon biltong salami.</p>
     </div>
-    <div class="col-xs-6 col-md-4 col-md-4 col-lg-4">
+    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
       <h3 class="text-center">TEST</h3>
       <p>Bacon ipsum dolor amet meatball drumstick landjaeger cupim venison short ribs bresaola sausage kielbasa alcatra. Strip steak ham kevin frankfurter ball tip biltong andouille filet mignon capicola bacon pancetta. Venison beef ribs ham pig pork sausage bresaola shankle. Turducken rump venison, hamburger meatloaf prosciutto spare ribs. Pork chop bacon shank porchetta. Andouille sausage pork chop venison tri-tip pork belly swine filet mignon biltong salami.</p>
     </div>
-    <div class="col-xs-6 col-md-4 col-md-4 col-lg-4">
+    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
       <h3 class="text-center">TEST</h3>
       <p>Bacon ipsum dolor amet meatball drumstick landjaeger cupim venison short ribs bresaola sausage kielbasa alcatra. Strip steak ham kevin frankfurter ball tip biltong andouille filet mignon capicola bacon pancetta. Venison beef ribs ham pig pork sausage bresaola shankle. Turducken rump venison, hamburger meatloaf prosciutto spare ribs. Pork chop bacon shank porchetta. Andouille sausage pork chop venison tri-tip pork belly swine filet mignon biltong salami.</p>
     </div>
   </div>
+
+  <!-- On the following row, there's a crappy ad that only appears on larger screens and a table that takes up all 12 columns when crappy ad is hidden on smaller devices -->
 
   <div class="row">
     <div class="hidden-xs hidden-sm col-md-3 col-lg-3">
@@ -45,6 +52,26 @@
             <input type="checkbox" />
           </td>
           <td class="col-xs-10 col-sm-9 col-md-9 col-lg-9">Text goes here</td>
+          <td class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+            <button class="btn btn-primary">Button</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="col-xs-1 col-sm-2 col-md-2 col-lg-2">
+            <input type="checkbox" />
+          </td>
+          <td class="col-xs-10 col-sm-9 col-md-9 col-lg-9">Blah Blah Blah</td>
+          <td class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+            <button class="btn btn-primary">Button</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="col-xs-1 col-sm-2 col-md-2 col-lg-2">
+            <input type="checkbox" />
+          </td>
+          <td class="col-xs-10 col-sm-9 col-md-9 col-lg-9">Even more text</td>
           <td class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
             <button class="btn btn-primary">Button</button>
           </td>
